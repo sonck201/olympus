@@ -1,0 +1,42 @@
+Wargon CMS
+ Laravel 5.4.*
+
+170316
+Laravel 5.4.15
+
+161101
+Laravel 5.2.45
+Change Article to Post
+Post list
+ - Standard
+ - Image
+ - Video
+ - Gallery
+
+160901
+Laravel 5.2.45
+- Using Laravel validator
+- Article management
+- User management
+
+160808
+Laravel 5.2.41
+- jQuery 2.2.4
+- Boostrap 3.3.7
+- Font Awesome 4.6.3
+
+Using laravel validation
+
+160412
+Laravel 5.2.29
+- jQuery 2.2.3
+
+151123
+Laravel 5.1.26 
+- jQuery 2.1.4
+- Boostrap 3.3.6
+- Font Awesome 4.5
+- Add IDE helper
+Command:
+1. php artisan clear-compiled
+2. php artisan ide-helper:generate

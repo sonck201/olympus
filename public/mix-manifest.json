@@ -1,0 +1,11 @@
+{
+  "/mix.js": "/mix.js",
+  "/templates/admin_wargon/css/style.css": "/templates/admin_wargon/css/style.css",
+  "/templates/admin_wargon/js/core.js": "/templates/admin_wargon/js/core.js",
+  "/templates/admin_wargon/js/login.js": "/templates/admin_wargon/js/login.js",
+  "/templates/admin_wargon/js/menu.js": "/templates/admin_wargon/js/menu.js",
+  "/templates/admin_wargon/js/post.js": "/templates/admin_wargon/js/post.js",
+  "/templates/admin_wargon/js/widget.js": "/templates/admin_wargon/js/widget.js",
+  "/templates/web_olympus/css/style.css": "/templates/web_olympus/css/style.css",
+  "/templates/web_olympus/js/core.js": "/templates/web_olympus/js/core.js"
+}

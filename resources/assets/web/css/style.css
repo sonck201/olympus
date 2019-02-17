@@ -1,0 +1,85 @@
+/*!
+ * Custom stylesheet for site. Written by Iamck 
+ */
+
+body {padding-top: 110px}
+
+#breadcrumbContainer {margin: 25px 0 15px}
+#mainContent {margin: 25px 0}
+
+a:hover {text-decoration: none}
+
+.animated.animated2x {animation-duration: .5s; -webkit-animation-duration: .5s}
+.animated.animated4x {animation-duration: .25s; -webkit-animation-duration: .25s}
+
+#breadcrumbContainer .breadcrumb {margin: 0}
+
+.pageTitle {border-bottom: 1px solid rgba(0, 0, 0, .1); margin: 0; padding: 6px 0; margin-bottom: 25px}
+
+footer {padding: 40px 0; border-top: 1px solid #eee}
+#footerContent p:last-child {margin-bottom: 0}
+
+.jumbotron {text-align: center; background-color: transparent}
+.jumbotron .btn {padding: 14px 24px; font-size: 21px}
+
+.widget {border: 1px transparent}
+.widget:last-child {margin-bottom: 0}
+.widget h1,
+.widget h2,
+.widget h3,
+.widget h4,
+.widget h5,
+.widget h6 {margin-top: 0}
+.widget pre {margin-bottom: 0}
+.widget p:last-child {margin-bottom: 0}
+
+.services-tab {top: 100px}
+.services-tab .nav-tabs li + li {margin-top: 60px}
+.services-tab .nav-tabs a {display: block; width: 80px; line-height: 20px; font-weight: 700; border: 1px solid #aaa; padding: 5px 10px}
+
+#work {margin: 50px 0}
+
+#sidebarLeft .panel,
+#sidebarRight .panel {border: 1px solid #ddd}
+
+.postGroup {overflow: hidden}
+.postItem {}
+.postItem + .postItem {margin-top: 15px; padding-top: 15px; border-top: 1px dotted rgba(0, 0, 0, .2)}
+.postItem .postImage {}
+.postItem .postDetail {}
+.postItem .postDetail a {font-size: 20px}
+
+.bannerItem {}
+.bannerItem .thumbnail {position: relative}
+.bannerItem .bannerTitle {position: absolute; display: none; bottom: 3px; background: rgba(255, 255, 255, .8); padding: 2px}
+.bannerItem:hover .bannerTitle {display: block}
+
+.status, .status-message {background-position: center 200px !important}
+
+.navbar {}
+.navbar-brand {padding: 0}
+.top-nav-collapse {background: rgba(255, 255, 255, .8)}
+.top-nav-collapse .navbar-brand img {height: 60px}
+.top-nav-collapse #navbar {margin-top: 10px}
+.navbar-default .navbar-nav li > a, .navbar-default .navbar-nav li > a:focus {padding: 15px}
+.navbar-right .dropdown-menu {top: 32px}
+.yamm-content .list-group {padding: 0 15px !important}
+.yamm-content .list-group-item-heading a {font-weight: bold !important; border-bottom: 1px dotted rgba(0, 0, 0, .2)}
+.yamm-content .list-group-item-heading a:hover {border-color: transparent !important}
+.yamm-content .list-group-item {margin:0; padding: 0; border: 0}
+.yamm-content .list-group-item, .list-group-item a {background: transparent}
+.dropdown-menu a {display: block !important; margin: 0 !important}
+.list-group-item a {padding: 0 15px !important}
+
+.navbar-default .navbar-nav .open .dropdown-menu li a {line-height: 2}
+
+@media ( min-width : 768px) {
+	.nav-justified {max-height: 52px}
+	.nav-justified>li>a {border-right: 1px solid #444; border-left: 1px solid #666}
+	.nav-justified>li:first-child>a {border-left: 0}
+	.nav-justified>li:last-child>a {border-right: 0}
+}
+
+@media screen and (min-width: 768px) {
+	.masthead, .marketing, .footer {padding-right: 0; padding-left: 0}
+}

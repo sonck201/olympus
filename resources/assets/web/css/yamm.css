@@ -1,0 +1,27 @@
+/*!
+ * Custom stylesheet for site. Written by Iamck
+ * Mega-menu 
+ */
+
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+	position: static;
+}
+
+.yamm .container {position: relative}
+.yamm .dropdown-menu {background: #fff; left: auto; margin: 0; padding: 0; border-top: 5px solid #FF6101; border-radius: 0px}
+.yamm .dropdown-menu a {color: #aaa; font-size: 90%; display: block}
+.yamm .dropdown-menu > li > a {border-top: 1px solid #4e4e4e; border-bottom: 1px solid #363636; padding: 8px 10px}
+.yamm .yamm-content {padding: 20px 30px}
+.yamm .dropdown.yamm-fw .dropdown-menu {left: 0; right: 0}
+.yamm .yamm-content .list-group {padding: 0 10px 10px; margin: 0}
+.yamm .yamm-content .list-group:nth-child() {}
+.yamm .yamm-content .list-group .list-group-item-heading,
+.yamm .yamm-content .list-group .list-group-item-heading > a {font-weight: bold; margin: 0; border-bottom: 0px solid #FF6101 !important; padding: 0 !important; color: white; font-size: 100% !important}
+.yamm .yamm-content .list-group .list-group-item-heading > a:hover {background: transparent !important}
+.yamm .yamm-content .list-group .list-group-item {background: transparent; border-radius: 0px; color: #eee; border: 0; padding: 0}
+.yamm .yamm-content .list-group .list-group-item + .list-group-item {border-top: 1px dotted #444}
+.yamm .yamm-content .list-group .list-group-item a {padding: 5px}
+.yamm .yamm-content .list-group .list-group-item a:hover {text-decoration: none; background: #eee; color: #222}

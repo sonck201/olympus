@@ -1,0 +1,1 @@
+<div class="col-xs-12">{{__('Web/global.error.empty_data')}}</div>

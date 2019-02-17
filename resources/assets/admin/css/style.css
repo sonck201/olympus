@@ -1,0 +1,162 @@
+/*!
+ * Custom stylesheet for site. Written by Iamck 
+ */
+@CHARSET "UTF-8";
+
+html, body {height: 100%; font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif}
+body {padding-top: 50px}
+
+a {color: #2980b9; border-radius: 0px !important; transition: all .2s ease; -moz-transition: all .2s ease; -webkit-transition: all .2s ease}
+a:hover {text-decoration: none}
+pre:first-child {margin-top: 70px}
+.form-control {border-radius: 0px}
+.table >tbody > tr > td {vertical-align: middle}
+.btn {border-radius: 0px}
+.fa {}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {margin-top: 0}
+
+.sub-header {margin-top: 0; padding-bottom: 10px; border-bottom: 1px solid #eee}
+.sub-header,
+.sub-header a {color: #333}
+.navbar-fixed-top {border: 0}
+
+.sidebar {position: fixed; top: 50px; bottom: 0; left: 0; z-index: 1000; display: block; padding: 20px 0; overflow-x: hidden; overflow-y: auto; background-color: #222;border-right: 1px solid #eee}
+.sidebar .nav-pills a {color: #eee; display: block; padding: 10px 5px; position: relative}
+.sidebar .nav-pills a i {margin-right: 0px}
+.sidebar .nav>li>a:focus, 
+.sidebar .nav>li>a:hover {background: black}
+.sidebar .nav>li a:focus, 
+.sidebar .nav>li a:hover {color: #5bc0de}
+.sidebar .nav-pills>li.active>a, 
+.sidebar .nav-pills>li.active>a:focus, 
+.sidebar .nav-pills>li.active>a:hover {background: #428bca; color: white}
+.sidebar .nav-pills ul {margin: 0; padding: 0; list-style: none; background: #333; text-indent: 15px}
+.sidebar .nav-pills ul li a {padding: 5px 15px; font-size: 90%; color: #aaa}
+.sidebar .nav-pills ul li a.active {color: white}
+
+.nav-sidebar {margin-right: -21px; margin-bottom: 20px; margin-left: -20px}
+.nav-sidebar > li > a {padding-right: 20px; padding-left: 20px}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {color: #fff; background-color: #428bca}
+.main {padding: 20px}
+.main .page-header {margin-top: 0}
+.placeholders {margin-bottom: 30px; text-align: center}
+.placeholders h4 {margin-bottom: 0}
+.placeholder {margin-bottom: 20px}
+.placeholder img {display: inline-block; border-radius: 50%}
+
+.authLogin {position: relative; background-image:-webkit-gradient(radial, center center, 0, center center, 460, from(#165387), to(#142849));background-image:-webkit-radial-gradient(circle, #165387, #142849);background-image:-moz-radial-gradient(circle, #165387, #142849);background-image:-o-radial-gradient(circle, #165387, #142849);background:radial-gradient(circle, #165387, #142849) no-repeat #142849;background-color:#142849}
+.authLogin .page {display: none; background:#F5F5F5;width:300px; min-height:30px;border: 1px solid #E3E3E3;padding:20px;position: absolute; top:0px;box-shadow:0 0 50px rgba(0, 0, 0, 0.5);border-radius:1px;margin:0 auto;}
+.authLogin .page form .form-group:last-child {margin-bottom: 0}
+.authLogin #container {margin: 0}
+
+.nav-tabs {margin-bottom: 15px}
+
+#mainMenu {height: 31px; min-height: 31px; border-bottom: 1px solid rgba(0, 0, 0, .2); box-shadow: 0 1px 2px rgba(0, 0, 0, .2); background: #34495e; margin: 0; border-radius: 0px; z-index: 1031 !important}
+#navbarTop .navbar-brand {height: 50px; line-height: 50px; padding: 0 15px; display: block; border-color: transparent; font-weight: bold; color: #ecf0f1}
+#navbarTop .navbar-brand img {height: 48px; border-color: transparent; display: inline-block; margin-right: 15px}
+#navbarTop .nav {margin: 10px 0 0}
+#navbarTop .nav > li {border-right: 1px solid black; height: 30px}
+#navbarTop .nav > li:last-child {border-right: 0px}
+#navbarTop .nav > li + li {border-left: 1px solid gray}
+#navbarTop .nav > li > a {padding: 0 10px; height: 30px; line-height: 30px}
+#navbarTop .nav > li {z-index: 9999}
+#navbarTop .nav > li ul li a {padding: 3px 15px; cursor: pointer}
+#navbarTop .nav > li ul li:hover a {background: #101010; color: #ecf0f1}
+#navbarTop .navbar-right {font-size: 12px}
+#navbarTop .navbar-right .badge {font-size: 10px}
+
+#navbarTop .titlePage {margin: 0 30px 0 10px; padding: 0; height: 50px; line-height: 50px; font-size: 22px; display: inline-table}
+#navbarTop .titlePage:before {content: "|"; margin-right: 20px}
+#navbarTop .titlePage div {display: inline}
+#navbarTop .titlePage.titlePageExtra {line-height: 20px; margin-right: 10px}
+#navbarTop .titlePage.titlePageExtra div {display: block; margin-top: 8px}
+#navbarTop .titlePage.titlePageExtra:before {content: ""; margin-right: 0}
+#navbarTop .titlePage.titlePageExtra span {font-size: 60%}
+
+.btnControl {margin: 14px 0}
+.btnControl .btnAdd,
+.btnControl .btnSave {padding: 1px 30px}
+.btnControl .btnPublish i {color: #5cb85c}
+.btnControl .btnUnpublish i {color: #c9302c}
+.btnControl .btnSaveClose i, .btnControl .btnSaveAdd i {color: #428bca}
+
+#container {margin: 85px 0 50px}
+
+.page#setting .tab-content {padding: 15px 0}
+.page#setting textarea {height: 80px}
+.page#setting .siteUrl {background: none; border: 0px; box-shadow: none; padding: 0; color: red}
+
+.page .widgetPosition > div {margin-bottom: 15px}
+.page .widgetPosition > div .position {border: 1px solid #ddd; padding: 15px; text-align: center}
+.page .widgetPosition > div:nth-of-type(2n+2) .position {background: #f9f9f9}
+.page .widgetPosition > div:hover .position {background: #f5f5f5}
+
+.page#widget select[multiple] {height: 300px}
+
+.page .page-header {margin-top: 0}
+
+.page#category {}
+
+.page#statistic {}
+.page#statistic .row + .row {margin-top: 25px}
+
+.categoryGroup .tab-content {overflow: auto; min-height: 100px; max-height: 300px}
+.categoryGroup .tab-content label {font-weight: normal; display: block}
+
+.page#post #extraFormat {background: #eee; padding: 8px; margin-bottom: 15px}
+.page#post #extraFormat div:last-child {margin: 0}
+
+.tableList {width: 100%; max-width: 100%}
+.tableList thead th:first-child {text-align: center}
+.tableList thead last-child {text-align: right}
+.tableList tbody td:first-child {width: 32px; text-align: center}
+.tableList tbody td.title {min-width: 20%}
+.tableList tbody td.title a {overflow: hidden; text-overflow: ellipsis; display: block}
+.tableList tbody td.status {text-align: center; width: 80px}
+.tableList tbody td.priority {}
+.tableList tbody td.priority .disabled.number {padding: 0; min-width: 36px}
+.tableList tbody td.priority .upP,
+.tableList tbody td.priority .downP {background: #337ab7; color: white; padding: 0}
+.tableList tbody td.priority .disabled.upP,
+.tableList tbody td.priority .disabled.downP {background: #777; color: white; pointer-events: all; cursor: not-allowed}
+.tableList tbody td div + div {margin-top: 5px}
+.tableList tbody td.accessiblePlace span {height: 22px; display: inline-block; padding-right: 8px; margin: 5px 0 5px 0}
+.tableList tbody td.accessiblePlace span + span {margin-left: 5px}
+.tableList tbody td.accessiblePlace span a {margin-right: 5px}
+
+.form-group .input-group .input-group-addon img {height: auto}
+
+.paginationContainer {text-align: center}
+.paginationContainer .pagination {margin: 0 auto; padding: 0}
+
+#fileInputReturn .thumbnail {position: relative}
+#fileInputReturn .thumbnail .btn-group {position: absolute; top: 50%; left: 50%; display: none; transform: translate(-50%, -50%)}
+#fileInputReturn .thumbnail img {max-height: 150px}
+#fileInputReturn .thumbnail:hover img {opacity: .8}
+#fileInputReturn .thumbnail:hover .btn-group {display: block}
+#fileInputReturn .thumbnail.has-primary {background: #337ab7}
+#message .alert p:after {}
+
+div.mce-fullscreen {z-index: 1050}
+
+#featureData label {margin: 0; line-height: 30px}
+
+#loadingBlock {background: rgba(0, 0, 0, .5); position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; overflow: hidden; padding: 180px 0 0; z-index: 9999 !important}
+#loadingBlock .loader {-webkit-animation: load8 1s infinite linear; animation: load8 1s infinite linear; margin: 5em auto; font-size: 10px; position: relative; text-indent: -9999em; border-top: 1em solid rgba(255, 255, 255, 0.2); border-right: 1em solid rgba(255, 255, 255, 0.2); border-bottom: 1em solid rgba(255, 255, 255, 0.2); border-left: 1em solid #fff}
+#loadingBlock .loader, 
+#loadingBlock .loader:after {border-radius: 50%; width: 10em; height: 10em}
+@-webkit-keyframes load8 {
+	0% {-webkit-transform: rotate(0deg); transform: rotate(0deg)}
+	100% {-webkit-transform: rotate(360deg); transform: rotate(360deg)}
+}
+@keyframes load8 {
+	0% {-webkit-transform: rotate(0deg); transform: rotate(0deg)}
+	100% {-webkit-transform: rotate(360deg); transform: rotate(360deg)}
+}
+
+.tblStat .list-group {}
+
+.imageSize .fa.fa-times {line-height: 34px; font-size: 20px}
+.mce-btn-small button {padding: 1px 3px !important}
